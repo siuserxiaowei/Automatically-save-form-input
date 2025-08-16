@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>输入框数据保存器</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h3>数据救命神器</h3>
+      <div class="subtitle">自动保存表单输入内容</div>
+    </div>
+    
+    <div class="current-domain">
+      <div class="domain-label">当前网站:</div>
+      <div id="currentDomain">加载中...</div>
+    </div>
+    
+    <div class="actions">
+      <button id="restoreBtn" class="btn btn-primary">
+        <span class="btn-icon">🔄</span>
+        恢复当前页面输入内容
+      </button>
+      <button id="clearBtn" class="btn btn-danger">
+        <span class="btn-icon">🗑️</span>
+        清除当前页面数据
+      </button>
+    </div>
+    
+    <div class="domain-list">
+      <h4>已保存的网站:</h4>
+      <div id="domainsContainer">
+        <div class="loading">加载中...</div>
+      </div>
+    </div>
+    
+    <div id="status" class="status"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
