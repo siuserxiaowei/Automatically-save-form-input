@@ -1,5 +1,18 @@
 # 数据救命神器 Chrome 扩展
 
+<!-- SIUSER-SEO-INTRO:START -->
+
+## 项目介绍 / Project Introduction
+
+**中文介绍**：自动保存表单输入项目，解决表单填写丢失问题，适合网页交互、浏览器增强和用户体验优化。
+
+**English**: A project for automatically saving form input to prevent data loss, useful for web interactions, browser enhancements, and UX improvements.
+
+**SEO 关键词 / SEO Keywords**: form autosave, browser extension, UX, web forms, 自动保存表单
+
+<!-- SIUSER-SEO-INTRO:END -->
+
+
 一个自动保存表单输入内容的 Chrome 浏览器扩展，防止因页面刷新、网络问题或其他意外情况导致的数据丢失。
 
 ## 功能特性
@@ -53,3 +66,17 @@
 - `content.js`: 内容脚本，负责监听和保存数据
 - `background.js`: 后台脚本，处理全局逻辑
 - `popup/`: 弹窗界面相关文件
+
+<!-- SIUSER-CONTACT:START -->
+
+## 联系我 / Contact
+
+想交流 AI 工具、内容自动化、SEO、私域增长或项目合作，可以扫码加我微信。
+
+For collaboration on AI tools, content automation, SEO, private-domain growth, or product experiments, scan the WeChat QR code below.
+
+<img src="https://raw.githubusercontent.com/siuserxiaowei/siuserxiaowei/main/assets/contact/wechat-qrcode.jpg" width="180" alt="WeChat QR code / 微信二维码" />
+
+**关键词 / Keywords**: form autosave, browser extension, UX, web forms, AI tools, AI automation, GitHub Pages, SEO
+
+<!-- SIUSER-CONTACT:END -->
