@@ -1,5 +1,68 @@
 # 数据救命神器 Chrome 扩展
 
+<!-- SIUSER-REPO-GUIDE:START -->
+## Repository Guide
+
+### What This Repository Does
+
+自动保存表单输入：用于浏览器表单自动保存和用户体验改进。
+
+English summary: Form input autosave utility for browser form persistence and UX improvement.
+
+### Online Entry Points
+
+- GitHub repository: https://github.com/siuserxiaowei/Automatically-save-form-input
+- Live / GitHub Pages: https://v0-chrome-plugin-generation.vercel.app
+- Default branch: `main`
+- Primary language: `JavaScript`
+
+### How To Read / Learn This Repository
+
+1. 先读本 README，确认项目目标、在线入口和本地运行方式。
+2. 打开上方 Live / GitHub Pages 链接，先从最终效果理解项目。
+3. 按仓库目录从入口文件、数据文件、脚本和文档依次阅读。
+4. 如果要修改内容，先小范围改动，再运行本 README 中的验证命令。
+
+### Clone This Repository
+
+```bash
+git clone https://github.com/siuserxiaowei/Automatically-save-form-input.git
+cd Automatically-save-form-input
+```
+
+### Run Or View Locally
+
+```bash
+python3 -m http.server 8000
+```
+
+然后打开 `http://127.0.0.1:8000/`。
+
+### Repository Map
+
+| Path | Purpose |
+| --- | --- |
+| `README.md` | 项目入口说明，先读这里。 |
+| `background.js` | 项目文件。 |
+| `content.js` | 项目文件。 |
+| `icons/` | 项目目录。 |
+| `manifest.json` | 项目文件。 |
+| `popup/` | 项目目录。 |
+
+### Maintenance Notes
+
+- Keep this README in sync when the project purpose, live link, or run commands change.
+- Prefer small, focused commits when changing code, data, or generated pages.
+- Run the relevant build or validation command before publishing changes.
+- If this is a generated/static archive, update the source data first, then regenerate the public files.
+
+### Privacy And Safety
+
+- Do not commit API keys, tokens, passwords, cookies, private URLs, or internal account data.
+- Keep private source material out of public GitHub Pages output unless it has been explicitly cleared for publication.
+- When in doubt, run a quick secret scan such as `rg -n "token|secret|password|access_key|authorization"` before pushing.
+<!-- SIUSER-REPO-GUIDE:END -->
+
 <!-- SIUSER-SEO-INTRO:START -->
 
 ## 项目介绍 / Project Introduction
@@ -11,7 +74,6 @@
 **SEO 关键词 / SEO Keywords**: form autosave, browser extension, UX, web forms, 自动保存表单
 
 <!-- SIUSER-SEO-INTRO:END -->
-
 
 一个自动保存表单输入内容的 Chrome 浏览器扩展，防止因页面刷新、网络问题或其他意外情况导致的数据丢失。
 
